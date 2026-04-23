@@ -1,0 +1,15 @@
+spyder
+ipython
+jupyter
+numpy>=1.23
+pandas>=2.0
+scikit-learn>=1.2
+matplotlib>=3.7
+seaborn>=0.12
+beautifulsoup4>=4.12
+keras>=2.12
+scikeras
+nltk>=3.8
+gensim>=4.3
+opencv-python>=4.7
+tensorflow>=2.12
