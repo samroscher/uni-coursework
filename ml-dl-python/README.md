@@ -94,7 +94,7 @@ Envs live in a central location (e.g. `~/miniconda3/envs/`), **not** inside the 
 
 ### 7. Package management in practice
 
-**Conda:**
+**conda:**
 
 ```bash
 conda install pandas
@@ -114,7 +114,7 @@ pip uninstall pandas
 pip freeze
 ```
 
-**Conda version specifiers:**
+**conda version specifiers:**
 
 | Meaning | Example |
 |---|---|
@@ -168,7 +168,7 @@ Installable via `pip install -r requirements.txt` — but requiring users to run
 |---|---|---|
 | What is listed? | All Python packages in the env | Only packages explicitly installed by the user via conda |
 | Sub-dependencies? | Yes (exhaustive) | No (minimal) |
-| Conda-installed packages | Shown with local `@ file:///...` path, not portable | Shown with name + version, portable |
+| conda-installed packages | Shown with local `@ file:///...` path, not portable | Shown with name + version, portable |
 
 **Mixed conda + pip:** `pip freeze` includes conda-installed packages with ugly local paths. Filter them out:
 
